@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#up .left {
+    background-color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+#up .left a {
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+#up .left a:hover {
+    color: rgb(244,98,58);
+}
+
+#up .right {
+    background-color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+#up .right ul {
+    display: flex;
+    margin-right: 150px;
+}
+
+#up .right ul li {
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#up .right ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+#up .right ul li a:hover {
+    color: rgb(244,98,58);
+}
+
+#down .place {
+    background-image: url(../images/bg-masthead.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 673px;
+}
+
+#down .place .brown {
+    background-color: rgb(78, 66, 57, 0.6);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 175px;
+}
+
+#down .place .brown .place-text{
+    width: 640px;
+    text-align: center;
+}
+
+#down .place .brown .place-text span {
+    color: white;
+    font-size: 50px;
+    position: relative;
+}
+
+#down .place .brown .place-text hr{
+    background-color: rgb(244,98,58);
+    width: 100px;
+    margin-left: 280px;
+    height: 2px;
+    margin-top: 25px;
+    border: 0px;
+}
+
+#down .place .brown .place-text p{
+    color: rgb(232, 227, 215);
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+#down .place .brown .place-text a{
+    color:white;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: rgb(244,98,58);
+    padding: 25px;
+    border-radius: 45px;
+    transition: 0.5s;
+}
+
+#down .place .brown .place-text a:hover{
+    background-color: rgb(175, 70, 41);
+}
+
+#need .need{
+    height: 400px;
+    background-color: rgb(244,98,58);
+    text-align: center;
+}
+
+#need .need .place-span span{
+    color: white;
+    font-size: 30px;
+}
+
+#need .need .place-span{
+    padding-top: 100px;
+}
+
+#need .need hr{
+    background-color: white;
+    border: 0px;
+    width: 50px;
+    margin-left: 735px;
+    height: 4px;
+    margin-top: 25px;
+}
+
+#need .need p{
+    width: 694px;
+    margin-top: 50px;
+    margin-left: 455px;
+    color: white;
+    margin-bottom: 60px;
+}
+
+#need .need a{
+    padding: 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 13px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
